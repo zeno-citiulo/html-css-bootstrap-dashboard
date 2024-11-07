@@ -12,19 +12,21 @@
   
   <header>
 
-    <div class="container-fluid m-0 p-0 bg-dark">
-      <div class="row">
-        <div class="py-3 col-sm-6 text-light">
-          <img class="w-25" src="./img/duck.png" alt="">
-        </div>
-        <div class="py-4 col-sm-6 text-light">
-          <nav class="float-end navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button"data-bs-toggle="collapse"data-bs-target="#navbarToggleExternalContent"aria-controls="navbarToggleExternalContent"aria-expanded="false" aria-label="Togglenavigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
+    <div class="container-xxl m-0 p-0 bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="py-3 px-3 col-sm-6 text-light">
+            <img class=" w-25" src="./img/duck.png" alt="">
+          </div>
+          <div class="py-3 px-3 col-sm-6 text-light">
+            <nav class="float-end navbar navbar-dark bg-dark">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button"data-bs-toggle="collapse"data-bs-target="#navbarToggleExternalContent"aria-controls="navbarToggleExternalContent"aria-expanded="false" aria-label="Togglenavigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
@@ -32,35 +34,11 @@
   </header>
 
   <main>
-
-    <div class="container-fluid my-3">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6">
-            <p class="fs-2">Catalogo Libri</p>
-          </div>
-          <div class="col-sm-6">
-            <button type="button" class="float-end btn btn-primary btn-lg">Aggiungi Libro</button>
-          </div>
-        </div>
-      </div>
-    </div>
-<!--    
-    <div class="container-fluid">
-      <div class="container-fluid">
-        <div class="row">
-          <table class="table table-dark table-striped">
-            <thead>ciao</thead>
-            <tbody>
-              <tr>1</tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  -->
-    <div class="container-fluid mt-4">
-      <table class="table">
+  
+    <div class="container my-3">
+    
+      <!-- Tabella per visualizzazione mobile (sm) -->
+      <table class="table table-striped d-md-none">
         <thead class="table-light">
           <tr>
             <th scope="col">Titolo</th>
@@ -73,100 +51,367 @@
             <td>I pilastri della terra</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>I promessi sposi</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Il signore degli anelli</td>
             <td><span class="badge bg-warning text-dark">In prestito</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Harry Potter e la pietra filosofale</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Il codice Da Vinci</td>
             <td><span class="badge bg-danger">Non disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Shining</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>La divina commedia</td>
             <td><span class="badge bg-warning text-dark">In prestito</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Il trono di spade</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Il mondo di Sofia</td>
             <td><span class="badge bg-danger">Non disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
             <td><span class="badge bg-warning text-dark">In prestito</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>Il piccolo principe</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
             <td>La storia infinita</td>
             <td><span class="badge bg-success">Disponibile</span></td>
             <td>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-pen" style="color: #919191;"></i></button>
-              <button class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-trash" style="color: #919191;"></i></button>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
             </td>
           </tr>
         </tbody>
       </table>
+
+      <!-- Tabella per visualizzazione (md e superiore) -->
+      <table class="table table-striped d-none d-md-table">
+        <thead class="table-light">
+          <tr>
+            <th scope="col">Titolo</th>
+            <th scope="col">Data prestito</th>
+            <th scope="col">Stato</th>
+            <th scope="col">Azioni</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I pilastri della terra</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>I promessi sposi</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Il signore degli anelli</td>
+            <td>18/10/2023</td>
+            <td><span class="badge bg-warning text-dark">In prestito</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Harry Potter e la pietra filosofale</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Il codice Da Vinci</td>
+            <td>-</td>
+            <td><span class="badge bg-danger">Non disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Shining</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>La divina commedia</td>
+            <td>21/09/2023</td>
+            <td><span class="badge bg-warning text-dark">In prestito</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Il trono di spade</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Il mondo di Sofia</td>
+            <td>-</td>
+            <td><span class="badge bg-danger">Non disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
+            <td>25/07/2023</td>
+            <td><span class="badge bg-warning text-dark">In prestito</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Il piccolo principe</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>La storia infinita</td>
+            <td>-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td>
+              <div class="btn-group" role="group">
+                <button class="btn btn-outline-secondary btn-sm" style="border-radius: 5px;">
+                <i class="fa-solid fa-pen" style="color: #919191;"></i>
+                </button>
+                <button class="btn btn-outline-secondary btn-sm ms-1" style="border-radius: 5px; margin-left: 5px;">
+                <i class="fa-solid fa-trash" style="color: #919191;"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
     </div>
 
   </main>
