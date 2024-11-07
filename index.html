@@ -15,17 +15,42 @@
     <div class="container-xxl m-0 p-0 bg-dark">
       <div class="container-fluid">
         <div class="row">
-          <div class="py-3 px-3 col-sm-6 text-light">
-            <img class=" w-25" src="./img/duck.png" alt="">
+          <div class="py-3 px-3 col-sm-6 col-lg-1 text-light">
+            <img src="./img/duck.png" alt="">
           </div>
           <div class="py-3 px-3 col-sm-6 text-light">
-            <nav class="float-end navbar navbar-dark bg-dark">
+            <nav class="float-end navbar navbar-dark bg-dark d-lg-none">
               <div class="container-fluid">
                 <button class="navbar-toggler" type="button"data-bs-toggle="collapse"data-bs-target="#navbarToggleExternalContent"aria-controls="navbarToggleExternalContent"aria-expanded="false" aria-label="Togglenavigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               </div>
+
             </nav>
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-light" href="#">Features</a>
+                    <a class="nav-link text-light" href="#">Pricing</a>
+                    <a class="nav-link text-light" href="#">Disabled</a>
+                  </div>
+                </div>
+              </div>
+              <nav class="navbar col-lg-6 float-end">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Cerca</button>
+                  </form>
+                </div>
+              </nav>
+            </nav>
+
           </div>
         </div>
       </div>
